@@ -47,7 +47,7 @@ struct MainView: View {
     private func destination(to destination: Destination) -> some View {
         switch destination {
         case .mainContentView:
-            MainContentView(isActive: .constant(false))
+            MainContentView()
         }
     }
     
@@ -55,7 +55,7 @@ struct MainView: View {
         NavigationView {
             ZStack {
                 navigationHost
-                NavigationLink(destination: MainContentView(isActive: $showMainContent), isActive: $showMainContent) {
+                NavigationLink(destination: MainContentView(), isActive: $showMainContent) {
                     EmptyView()
                 }
             }

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct SplashView: View {
     
@@ -13,13 +14,16 @@ struct SplashView: View {
     
     @EnvironmentObject var router: Router
     
+    let splashInterval: TimeInterval = 2.0
+    @State var timer: AnyCancellable?
+    
     
     // MARK: - UI
     
     var body: some View {
         content
             .task {
-                startSequence()
+                await startSequence()
             }
     }
     
@@ -34,15 +38,6 @@ extension SplashView {
     
     func moveToMain() {
         router.set(root: .main)
-    }
-    
-    
-    // MARK: - Function (Action)
-    
-    func startSequence() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            moveToMain()
-        }
     }
 }
 

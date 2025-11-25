@@ -12,9 +12,7 @@ struct MainContentView: View {
     // MARK: - Properties
     
     @EnvironmentObject var router: Router
-    
-    @Binding var isActive: Bool
-    
+        
     
     // MARK: - UI
     
@@ -32,6 +30,6 @@ struct MainContentView: View {
 }
 
 #Preview {
-    MainContentView(isActive: .constant(true))
+    MainContentView()
         .environmentObject(Router.init())
 }
