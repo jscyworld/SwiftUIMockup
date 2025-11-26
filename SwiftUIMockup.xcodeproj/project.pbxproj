@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		763829562ECD45FF0088AF2A /* Heist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		763829562ECD45FF0088AF2A /* SwiftUIMockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		763829582ECD45FF0088AF2A /* Heist */ = {
+		763829582ECD45FF0088AF2A /* SwiftUIMockup */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Heist;
+			path = SwiftUIMockup;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		7638294D2ECD45FF0088AF2A = {
 			isa = PBXGroup;
 			children = (
-				763829582ECD45FF0088AF2A /* Heist */,
+				763829582ECD45FF0088AF2A /* SwiftUIMockup */,
 				763829572ECD45FF0088AF2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		763829572ECD45FF0088AF2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				763829562ECD45FF0088AF2A /* Heist.app */,
+				763829562ECD45FF0088AF2A /* SwiftUIMockup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		763829552ECD45FF0088AF2A /* Heist */ = {
+		763829552ECD45FF0088AF2A /* SwiftUIMockup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 763829612ECD46000088AF2A /* Build configuration list for PBXNativeTarget "Heist" */;
+			buildConfigurationList = 763829612ECD46000088AF2A /* Build configuration list for PBXNativeTarget "SwiftUIMockup" */;
 			buildPhases = (
 				763829522ECD45FF0088AF2A /* Sources */,
 				763829532ECD45FF0088AF2A /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				763829582ECD45FF0088AF2A /* Heist */,
+				763829582ECD45FF0088AF2A /* SwiftUIMockup */,
 			);
-			name = Heist;
+			name = SwiftUIMockup;
 			packageProductDependencies = (
 			);
 			productName = Heist;
-			productReference = 763829562ECD45FF0088AF2A /* Heist.app */;
+			productReference = 763829562ECD45FF0088AF2A /* SwiftUIMockup.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 763829512ECD45FF0088AF2A /* Build configuration list for PBXProject "Heist" */;
+			buildConfigurationList = 763829512ECD45FF0088AF2A /* Build configuration list for PBXProject "SwiftUIMockup" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				763829552ECD45FF0088AF2A /* Heist */,
+				763829552ECD45FF0088AF2A /* SwiftUIMockup */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		763829512ECD45FF0088AF2A /* Build configuration list for PBXProject "Heist" */ = {
+		763829512ECD45FF0088AF2A /* Build configuration list for PBXProject "SwiftUIMockup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7638295F2ECD46000088AF2A /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		763829612ECD46000088AF2A /* Build configuration list for PBXNativeTarget "Heist" */ = {
+		763829612ECD46000088AF2A /* Build configuration list for PBXNativeTarget "SwiftUIMockup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				763829622ECD46000088AF2A /* Debug */,
