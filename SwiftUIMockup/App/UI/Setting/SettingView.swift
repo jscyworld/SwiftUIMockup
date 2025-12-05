@@ -1,8 +1,8 @@
 //
 //  SettingView.swift
-//  Heist
+//  SwiftUI Mockup
 //
-//  Created by Sirius_Haii on 11/19/25.
+//  Created by Sirius Kim on 11/19/25.
 //
 
 import SwiftUI

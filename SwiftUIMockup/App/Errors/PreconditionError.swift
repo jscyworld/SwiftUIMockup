@@ -1,8 +1,8 @@
 //
 //  PreconditionError.swift
-//  Heist
+//  SwiftUI Mockup
 //
-//  Created by Sirius_Haii on 11/25/25.
+//  Created by Sirius Kim on 11/25/25.
 //
 
 import Foundation

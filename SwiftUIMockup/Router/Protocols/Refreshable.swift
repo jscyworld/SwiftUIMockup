@@ -1,8 +1,8 @@
 //
 //  Refreshable.swift
-//  Heist
+//  SwiftUI Mockup
 //
-//  Created by Sirius_Haii on 11/19/25.
+//  Created by Sirius Kim on 11/19/25.
 //
 
 // 이 파일은 뷰/상태를 강제로 갱신(refresh)할 수 있도록 하는 공통 프로토콜 `Refreshable`을 정의합니다.

@@ -1,8 +1,8 @@
 //
 //  View+Extension.swift
-//  Heist
+//  SwiftUI Mockup
 //
-//  Created by Sirius_Haii on 11/19/25.
+//  Created by Sirius Kim on 11/19/25.
 //
 
 // 이 확장은 SwiftUI `View`에 비동기 리프레시 헬퍼를 제공합니다.

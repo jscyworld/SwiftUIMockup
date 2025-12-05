@@ -1,14 +1,14 @@
 //
-//  HeistApp.swift
-//  Heist
+//  SwiftUIMockupApp.swift
+//  SwiftUI Mockup
 //
-//  Created by Sirius_Haii on 11/19/25.
+//  Created by Sirius Kim on 11/19/25.
 //
 
 import SwiftUI
 
 @main
-struct HeistApp: App {
+struct SwiftUIMockupApp: App {
     
     // MARK: - Initializer
     
